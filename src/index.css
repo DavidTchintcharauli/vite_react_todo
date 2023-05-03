@@ -1,0 +1,363 @@
+* {
+    font-family: "Poppins" !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+section {
+    background-color: black;
+    height: 768px;
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: black;
+    max-width: 588px;
+    width: 95%;
+    height: 688px;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* first page */
+
+.getStarted {
+  font-size: 54px;
+}
+
+.logo {
+  margin-top: 100px;
+  margin-bottom: 46px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.getStartedLink {
+  width: 63%;
+  max-width: 388px;
+  min-width: 290px;
+  margin-top: 165px;
+}
+
+/* second page */
+
+#SignUpHeader {
+  color: black;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}
+
+.signInButton {
+  max-width: 258px;
+  width: 95%;
+  height: 66px;
+  min-width: 200px;
+  font-size: 32px;
+}
+
+.file-upload {
+  display: inline-flex;
+  position: relative;
+  margin: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #E6EBFF;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-upload input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-upload label {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.file-upload span {
+  pointer-events: none;
+}
+
+button {
+    background-color: #5EFC8D;
+    border-radius: 4px;
+    border: none;
+    height: 98px;
+    margin: auto;
+    min-width: 290px;
+    width: 100%;
+    font-size: 48px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.profilePicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#SignUpHeader {
+    color: black;
+}
+
+.profilePictureDiv{
+    margin-bottom: 53px;
+}
+
+.profile-picture-upload {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-picture-upload input[type="file"] {
+    display: none;
+  }
+  
+  .profile-picture-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-picture-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .profile-picture-upload span {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+#name {
+    height: 76px;
+    max-width: 487px;
+    margin-top: 16px;
+    width: 95%;
+    border-radius: 4px;
+    background-color: #E6EBFF;
+    border: none;
+    font-size: 22px;
+}
+
+span {
+  font-size: 22px;
+  margin-left: 24px;
+}
+
+::placeholder {
+    padding: 0 24px;
+    opacity: 0.2;
+  }
+
+.inputLabel {
+    margin-bottom: 16px;
+}
+
+.signInButton:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Third */
+
+.todoPage {
+  background-color: #FFFFFF;
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  background-color: #000000;
+}
+
+header {
+    max-width: 1366px;
+    width: 100%;
+    height: 98px;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.profilePictureNav {
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    margin: 0px 18px 0px 20px;
+}
+
+.navDiv{
+    display: flex;
+    align-items: center;
+}
+
+.todoSection {
+  background-color: #FFFFFF;
+  max-width: 1366px;
+  display: block;
+}
+
+h2 {
+    margin: 28px;
+}
+
+.addYorDailyTasks {
+    color: #000000;
+    font-size: 42px;
+}
+
+.addTaskButton {
+    width: 108px;
+    min-width: 100px;
+    height: 76px;
+    margin: 0;
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+.addTaskButton:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.taskList {
+    background-color: #000000;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 595px;
+    min-width: 225px;
+    border-radius: 4px;
+}
+
+.completed {
+  background-color: #ededed;
+}
+
+.doneButton.completed {
+  background-color: #ededed;
+}
+
+.deleteButton.completed {
+  background-color: #ededed;
+}
+
+.listButtons{
+  display: inline-flex;
+}
+
+.deleteButton {
+  background-color: #000000;
+  height: 54px;
+  width: 48px;
+  min-width: 48px;
+  margin: 0;
+  font-size: 0px;
+}
+
+.deleteButton:hover {
+  background-color: #FC5E5E;
+}
+
+.doneButton {
+  background-color: #000000;
+  height:54px;
+  width: 48px;
+  min-width: 48px;
+  margin: 0;
+  margin-right: 6px;
+  font-size: 0px;
+}
+
+.doneButton:hover {
+  background-color: #5EFC8D;
+}
+
+.taskInputContainer {
+  display: inline-flex;
+  align-items: center;
+  max-width: 595px;
+  width: 102%;
+}
+
+li {
+  display: flex;
+  margin: auto;
+  margin-top: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.taskLines {
+  display: inline-block;
+  max-width: 470px;
+  word-wrap: break-word;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+.logOutButton {
+  width: 100px;
+  height: 50px;
+  background-color: #000000;
+  color: #FFFFFF;
+  transition: 0.3s;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 22px;
+  margin: 0px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  min-width: 10px;
+}
+
+.logOutButton:hover {
+  color: #000000;
+  background-color: #5EFC8D;
+}
